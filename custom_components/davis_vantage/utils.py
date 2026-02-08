@@ -1,6 +1,5 @@
 import math
 from datetime import datetime
-import re
 from zoneinfo import ZoneInfo
 from typing import Any
 
@@ -164,5 +163,11 @@ def calc_dew_point(temperature_f: float, humidity: float) -> float:
     a = math.log(humidity / 100) + (17.62 * temperature_c / (243.12 + temperature_c))
     return convert_celcius_to_fahrenheit(243.12 * a / (17.62 - a))
 
-def make_safe_entity_id(entity_id: str) -> str:
-    return re.sub(r"[()]", "", entity_id).replace(" ", "_").lower()
+def normalize_unique_id(uid: str) -> str:
+    return (
+        uid.replace(" ", "_")
+            .replace("-", "_")
+            .replace("(", "")
+            .replace(")", "")
+            .lower()
+    )
