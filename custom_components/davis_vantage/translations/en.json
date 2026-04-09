@@ -249,7 +249,7 @@
                     "19": "snowy-rainy",
                     "22": "snowy",
                 }
-            ),
+            },
             "forecast_rule": {
                 "name": "Forecast Rule",
                 "state": {
