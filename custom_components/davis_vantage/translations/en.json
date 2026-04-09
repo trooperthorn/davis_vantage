@@ -225,6 +225,17 @@
             },
             "forecast_icon": {
                 "name": "Forecast Icon"
+                "state": {
+                    "2": "mdi:weather-partly-cloudy"
+                    "3": "mdi:weather-partly-rainy"
+                    "6": "mdi:weather-partly-cloudy"
+                    "7": "mdi:weather-partly-rainy"
+                    "8": "mdi:weather-sunny"
+                    "10": "mdi:weather-partly-snowy"
+                    "19": "mdi:weather-snowy-rainy"
+                    "22": "mdi:weather-partly-snowy"
+                    "23": "mdi:partly-snowy-rainy"
+                }
             },
             "forecast_rule": {
                 "name": "Forecast Rule",
