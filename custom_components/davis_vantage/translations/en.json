@@ -225,7 +225,7 @@
             },
             "forecast_icon": {
                 "name": "Forecast Icon"
-                "state": {
+                "state": {,
                     "2": "mdi:weather-partly-cloudy"
                     "3": "mdi:weather-partly-rainy"
                     "6": "mdi:weather-partly-cloudy"
