@@ -1,4 +1,5 @@
 """Sensor setup for our Integration."""
+"""SENSOR REFERENCE: https://wiki.greengaragedetroit.com/images/e/e4/VantageSerialProtocolDocs_v230.pdf"""
 
 import logging
 from dataclasses import dataclass
@@ -368,14 +369,14 @@ def get_sensor_descriptions(model: str) -> list[DavisSensorEntityDescription]:
             entity_name="Wind Direction Rose",
             device_class=SensorDeviceClass.ENUM,
             options=[
-                "n",
-                "ne",
-                "e",
-                "se",
-                "s",
-                "sw",
-                "w",
-                "nw"
+                "N",
+                "NE",
+                "E",
+                "SE",
+                "S",
+                "SW",
+                "W",
+                "NW"
             ],
         ),
         DavisSensorEntityDescription(
@@ -384,14 +385,14 @@ def get_sensor_descriptions(model: str) -> list[DavisSensorEntityDescription]:
             entity_name="Wind Direction Rose (Average)",
             device_class=SensorDeviceClass.ENUM,
             options=[
-                "n",
-                "ne",
-                "e",
-                "se",
-                "s",
-                "sw",
-                "w",
-                "nw"
+                "N",
+                "NE",
+                "E",
+                "SE",
+                "S",
+                "SW",
+                "W",
+                "NW"
             ],
         ),
         DavisSensorEntityDescription(
