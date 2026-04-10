@@ -158,27 +158,27 @@
             "wind_direction_rose": {
                 "name": "Wind Direction (Rose)",
                 "state": {
-                    "n": "N",
-                    "ne": "NE",
-                    "e": "E",
-                    "se": "SE",
-                    "s": "S",
-                    "sw": "SW",
-                    "w": "W",
-                    "nw": "NW"
+                    "N": "N",
+                    "NE": "NE",
+                    "E": "E",
+                    "SE": "SE",
+                    "S": "S",
+                    "SW": "SW",
+                    "W": "W",
+                    "NW": "NW"
                 }
             },
             "wind_direction_rose_average": {
                 "name": "Wind Direction (Rose) (Average)",
                 "state": {
-                    "n": "N",
-                    "ne": "NE",
-                    "e": "E",
-                    "se": "SE",
-                    "s": "S",
-                    "sw": "SW",
-                    "w": "W",
-                    "nw": "NW"
+                    "N": "N",
+                    "NE": "NE",
+                    "E": "E",
+                    "SE": "SE",
+                    "S": "S",
+                    "SW": "SW",
+                    "W": "W",
+                    "NW": "NW"
                 }
             },
             "wind_speed_bft": {
@@ -240,14 +240,15 @@
             "forecast_icon": {
                 "name": "Current Forecast",
                 "state": {
-                    "2": "partlycloudy",
+                    "2": "cloudy",
                     "3": "rainy",
                     "6": "partlycloudy",
-                    "7": "rainy",
+                    "7": "partlycloudy",
                     "8": "sunny",
-                    "10": "snowy",
+                    "18": "snowy-rainy",
                     "19": "snowy-rainy",
-                    "22": "snowy"
+                    "22": "snowy",
+                    "23": "snowy-rainy"
                 }
             },
             "forecast_rule": {
